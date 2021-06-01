@@ -88,8 +88,8 @@ app.get("/localizacao", (req, res) => {
   res.render("localizacao");
 });
 
-app.get("/loja", (req, res) => {
-  res.redirect("https://creacoesmv.lojaintegrada.com.br");
+app.get("/equiplan", (req, res) => {
+  res.redirect("#");
 });
 
 app.get('/termo_de_uso',(req,res)=>{
