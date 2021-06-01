@@ -80,9 +80,9 @@ app.get("/politica", (req, res) => {
   res.render("politica");
 });
 
-app.get("/faq", (req, res) => {
-  res.render("faq");
-});
+// app.get("/faq", (req, res) => {
+//   res.render("faq");
+// });
 
 app.get("/localizacao", (req, res) => {
   res.render("localizacao");
